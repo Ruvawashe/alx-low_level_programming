@@ -7,16 +7,10 @@
  */
 
 void reset_to_98(int *n)
-{ 
-	int main(void)
-		int n = 98
-		*n = 408
 
-		int putchar(int n);
-
-	Return 0
-
-
+int main() 
+{
+	int *n = 98;
 
 }
 
