@@ -8,7 +8,15 @@
 
 void reset_to_98(int *n)
 { 
-	*n = 98;
+	int main(void)
+		int n = 98
+		*n = 408
+
+		int putchar(int n);
+
+	Return 0
+
+
 
 }
 
