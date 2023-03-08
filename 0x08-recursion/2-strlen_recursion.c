@@ -1,23 +1,19 @@
 #include "main.h"
 
 /**
- * factorial - return factorial of a given number.
- * @n: int type number
- * Return: factorial of number
+ * _strlen_recursion - return length of a string
+ * @s: string
+ * Return: length of string
  */
 
-int factorial(int n)
+int _strlen_recursion(char *s)
 {
-	if (n < 0)
-	{
-		return (-1);
-	}
-	else if (n < 2)
-	{
-		return (1);
-	}
-	else
-	{
-		return (n * factorial(n - 1));
-	}
+	int count;
+
+	if (*s == '\0')
+		return (0);
+
+	count = 1 +  _strlen_recursion(s + 1);
+
+	return (count);
 }
