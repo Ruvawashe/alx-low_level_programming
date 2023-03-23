@@ -1,15 +1,16 @@
+#include "dog,h"
 #include <stdlib.h>
-#include "dog.h"
 
 /**
- * declaration of struct dog in header file dog.h
- * @name - gives the name of dog
- * @age - gives age of dog
- * @owner - gives name of owner of dog
- * return 
+ * init_dog - function that initialiaze a variable of type struct dog.
+ * @d: struct to initialize
+ * @name - Dog's name
+ * @age - Dog's age
+ * @owner - Dog's owner
+ * Return: Nothing. 
  */
 
-void init_dog(struct dog *d, char *name, float age, char *owner);
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
 	if (d == NULL)
 	return;
